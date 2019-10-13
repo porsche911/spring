@@ -1,0 +1,13 @@
+首先把终端切换到要下载的本地路径
+cd /Users/shienlei/IdeaProjects/spring
+然后克隆项目，终端输入：
+git clone git@github.com:wenmobo/LearnGit.git
+git@github.com:wenmobo/LearnGit.git是刚刚复制的ssh路径
+工程下载结束
+提交修改，首先切换到/Users/shienlei/IdeaProjects/spring目录下，然后输入
+//文件添加到仓库（.代表提交所有文件）
+git add .
+//把文件提交到仓库
+git commit -m "First Commit"
+//上传到github
+git push
